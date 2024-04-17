@@ -1,7 +1,8 @@
 export function App() {
   return (
-    <h1 className="m-4 w-fit rounded-md bg-violet-500 px-4 py-2 font-bold text-zinc-50">
-      Hello world!
-    </h1>
+    <div>
+      <h1 className="font-serif text-3xl">Hello World!</h1>
+      <p>Start editing to see some magic happen :)</p>
+    </div>
   )
 }
