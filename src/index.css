@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply antialiased;
+}
+
 body {
   @apply bg-primary text-secondary flex flex-col justify-center min-h-screen;
 }
